@@ -8,13 +8,14 @@ Yarn
 
 ```
 
-# Run application
+# Run application and access at localhost:4000/graphql
 
 ``` javascript
 node server 
 
 ```
-Access deployed at https://bcgraphql.herokuapp.com/graphql
+Access deployed application at https://bcgraphql.herokuapp.com/graphql 
+
 ``` javascript
 query {
   calculatePrice(type: "buy", margin: 0.2, exchangeRate: 360)
